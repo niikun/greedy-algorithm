@@ -1,0 +1,7 @@
+black
+click
+ipython
+numpy
+pandas
+pylint
+pytest

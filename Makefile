@@ -7,8 +7,9 @@ format:
 	
 lint:
 	pylint --disable=R,C *.py
-	
+
+.PHONY: test	
 test:
-	python -m pytest -vv *.py
+	python -m pytest -vv test/*.py
 	
 all: install lint test

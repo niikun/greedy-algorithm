@@ -34,7 +34,7 @@ def create_cities_dataframe(cities=None):
             "Yokohama",
             "Chiba",
             "Urawa",
-            "Kobe"
+            "Kobe",
         ]
 
     # create a list to hold the latitudes and longitudes

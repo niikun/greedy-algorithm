@@ -22,26 +22,19 @@ def create_cities_dataframe(cities=None):
 
     if cities is None:
         cities = [
-            "New York",
-            "Knoxville",
-            "Birmingham",
-            "Baltimore",
-            "Bangor",
-            "Cleveland",
-            "Chicago",
-            "Denver",
-            "Los Angeles",
-            "San Francisco",
-            "Raleigh",
-            "Seattle",
-            "Boston",
-            "Houston",
-            "Dallas",
-            "Miami",
-            "Atlanta",
-            "Fort Worth",
-            "Phoenix",
-            "San Diego",
+            "Tokyo",
+            "Osaka",
+            "Sapporo",
+            "Sendai",
+            "Utsunomiya",
+            "Shizuoka",
+            "Nagoya",
+            "Hiroshima",
+            "Hukuoka",
+            "Yokohama",
+            "Chiba",
+            "Urawa",
+            "Kobe"
         ]
 
     # create a list to hold the latitudes and longitudes

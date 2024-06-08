@@ -1,5 +1,6 @@
 black
 click
+geopy
 ipython
 numpy
 pandas

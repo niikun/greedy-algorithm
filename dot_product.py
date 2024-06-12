@@ -1,6 +1,3 @@
-from itertools import permutations
-
-
 def max_dot_product(first_sequence, second_sequence):
     first_sequence = sorted(first_sequence, reverse=True)
     second_sequence = sorted(second_sequence, reverse=True)
